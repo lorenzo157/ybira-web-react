@@ -1,0 +1,35 @@
+export interface Filter {
+  [key: string]: string[];
+}
+
+export enum FilterName {
+  // tree_id = "tree_id",
+  // tree_address = "tree_address",
+  // latitude = "latitude",
+  // longitude = "longitude",
+  // m_date = "m_date",
+  // perimeter = "perimeter",
+  // DAP = "DAP",
+  // height = "height",
+  // incline = "incline",
+  // trees_in_the_block = "trees_in_the_block",
+  isDead = "Esta muerto",
+  isMissing = "Arbol faltante",
+  diseases = "Enfermedades",
+  exposedRoots = "Raíces Expuestas",
+  // strata = "Estrato",
+  species = "Especie",
+  //shape = "Forma de copa",
+  pests = "Plagas",
+  treeValue = "Valor del arbol",
+  conflicts = "Conflicto",
+  windExposure = "Exposición a los vientos dominantes",
+  vigor = "Vigor",
+  canopyDensity = "Densidad de copa",
+  growthSpace = "Espacio de crecimiento",
+  risk = "Riesgo",
+  intervention = "Intervención",
+  streetMateriality = "Materialidad de la calle",
+  //correctionTree = "Corrección del árbol",
+  // id_neighborhood = "id_neighborhood",
+}
